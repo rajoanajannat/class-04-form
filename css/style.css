@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.main-box{
+	width: 100%;
+	padding: 60px 0;
+
+}
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+.form-box{
+	display: flex;
+}
+
+.left, .right{
+	flex-basis: 50%;
+}
+
+.logo img{
+	width: 100px;
+	border-radius: 100%;
+}
+
+.left-img img{
+	width: 100%;
+	height: auto;
+
+}
+
+.left-img{
+	padding: 50px 80px 50px 80px;
+    border-right: 1px solid #746a7a0f;
+
+}
+
+.right{
+	margin-left: 60px;
+}
+
+.social-icon ul{
+	display: inline-block;
+}
+
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 10px;
+
+}
+
+.social-icon ul li a i{
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px; 
+	border-radius: 100%;
+	color: white;
+}
+
+.social-icon ul li a i:hover{
+	transform: scale(0.7);
+	transition: 0.5s;
+	transform: rotate(360deg);
+
+}
+
+.one{
+	background: rgb(127, 149, 95);
+
+}
+.two{
+	background: rgb(176, 215, 192);
+
+}
+.three{
+	background: rgb(165, 168, 158);
+
+}
+
+.social-icon span{
+	font-weight: 600;
+	margin-right: 10px;
+}
+
+.line{
+	height: 2px;
+	width: 100%;
+	background: #746a7a0f;
+	margin: 40px 0;
+}
+
+.d-block{
+	display: block;
+}
+
+.form-control{
+	padding: 14px 10px;
+	width: 100%;
+
+}
+
+.form-group{
+	margin-bottom: 30px;
+}
+
+input[placeholder]{
+	letter-spacing: 2px;
+
+}
+
+input:focus{
+	outline-color: rgb(226, 250, 95);
+}
+
+
+.form label{
+	margin-bottom: 6px;
+}
+
+.mt-2{
+	margin-bottom: 6px;
+
+}
+
+.btn{
+	background-color: rgb(100, 150, 138);
+    color: white;
+    padding: 12px 50px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none; 
+    margin-top: 20px;  
+
+}
+
+.link{
+	font-weight: bold;
+    margin-top: 20px;
+}
